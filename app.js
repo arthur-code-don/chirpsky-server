@@ -55,7 +55,7 @@ app.use(mongosanitize());
 // app.use(xss());
 
  app.use(cors({
-  origin: "https://chirpskykite-frontend.onrender.com",
+  origin: "https://chirpsky-frontend.onrender.com",
   methods: ["GET", "PATCH", "POST", "DELETE", "PUT"],
   credentials: true,
 

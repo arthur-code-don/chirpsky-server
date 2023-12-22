@@ -276,7 +276,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
 
   // 3) Send it to user's email
   try {
-    const resetURL = `https://chirpskykite-frontend.onrender.com/auth/new-password?token=${resetToken}`;
+    const resetURL = `https://chirpsky-server.onrender.com/auth/new-password?token=${resetToken}`;
     // TODO => Send Email with this Reset URL to user's email address
 
     console.log(resetURL);

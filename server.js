@@ -35,7 +35,7 @@ const server = http.createServer(app);
 // Create an io server and allow for CORS from http://localhost:3001 with GET and POST methods
 const io = new Server(server, {
   cors: {
-    origin: "https://chirpskykite-frontend.onrender.com",
+    origin: "https://chirpsky-frontend.onrender.com",
     methods: ["GET", "POST"],
   },
 });
